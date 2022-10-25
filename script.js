@@ -11,6 +11,7 @@ accedi.addEventListener('click',
         else{
                 console.log("Email non valida. Riprovare.")
                 alert("Non puoi giocare se non sei iscritto!")
+                diceGame.classList.add('hidden')
         }
     }
 );
