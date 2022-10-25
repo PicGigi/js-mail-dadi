@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayDice</title>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- javascript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="mail-input">
+        <h1>Ciao! Inserisci la tua email per giocare!</h1>
+        <div>
+            <input type="text" id="mail">
+            <button id="accedi">Accedi</button>
+        </div>
+    </div>
+
+    <div id="dice-game" class="hidden">
+        <button id="roll">Tira il dado!</button>
+        <div class="dices">
+            <div class="dice">
+                <h2>Il tuo dado</h2>
+                <i id="blue-dice" class="bi"></i>
+            </div>
+            <div class="dice">
+                <h2>Il dado avversario</h2>
+                <i id="red-dice" class="bi"></i>
+            </div>
+        </div>
+        <h2 id="message"></h2>
+    </div>
+
+</body>
+</html>
